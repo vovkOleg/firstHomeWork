@@ -12,8 +12,8 @@ public Calc(int a, int b) {
       this.b = b;
       sum(a, b);
       div(a, b);
-      powFirst(a);
-      powSecond(b);
+      pow(a);
+      pow(b);
       mul(a, b);
       minus(a, b);
   }
@@ -32,15 +32,9 @@ public float div(int a, int b){
   return result;
 }
 
-public int powFirst(int a){
+public int pow(int a){
    int result = a * a;
-   System.out.println("POW FIRST = " + result);
-   return result;
-}
-
-public int powSecond(int b){
-   int result = b * b;
-   System.out.println("POW SECOND = " + result);
+   System.out.println("POW = " + result);
    return result;
 }
 
