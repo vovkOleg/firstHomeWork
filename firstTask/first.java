@@ -24,7 +24,6 @@ public int sum(int a, int b){
   return result;
 }
 
-
 public float div(int a, int b){
   float bFloat = Float.valueOf(b);
   float result = a/bFloat;
